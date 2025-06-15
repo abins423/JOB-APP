@@ -1,0 +1,35 @@
+
+.job-card {
+    background-color: rgb(2, 2, 2); 
+    border-radius: 8px;
+    border: 2px solid #353835;
+    box-shadow: 0 2px 10px rgba(48, 47, 47, 0.1);
+    padding: 20px;
+    transition: transform 0.2s; 
+    height: 100%; 
+    text-decoration: none;
+  
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px); 
+    background-color: rgb(67, 60, 54);
+    border-color: #4c494a;
+    border: 2px;
+  }
+  .job-card link{
+    text-decoration: none;
+  }
+  
+  
+  .job-card h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 10px; 
+    color: #9f333e; 
+    text-decoration: none;
+  }
+  
+  .job-card p {
+    color:rgb(200, 191, 191);
+    margin: 5px 0; 
+  }

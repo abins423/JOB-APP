@@ -1,0 +1,99 @@
+/* Navbar link styles */
+.navclass {
+    position: relative; /* Allows for ::after pseudo-element to work correctly */
+    list-style: none;
+    margin: 10px 20px; /* Margin around nav items */
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navclass:hover {
+    color: #ff6347; /* Change color on hover */
+}
+
+.navclass::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.navclass:hover::after {
+    width: 100%; /* Expand underline on hover */
+}
+
+.name {
+    color: darkmagenta;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 10px; /* Add some space from the left */
+}
+
+/* NavBar.css */
+.navbar-dark .navbar-nav .nav-link {
+    color: white; /* Ensures nav link color is white */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #adbdb0; /* Change color on hover */
+}
+
+.navbar-brand {
+    color: white; /* Ensure brand color is white */
+}
+
+.navbar {
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+/* Dropdown styles */
+.nav-item.dropdown {
+    position: relative; /* Allow positioning of dropdown */
+}
+
+.nav-item.dropdown .nav-link {
+    color: white; /* Ensure the "More" dropdown header is white */
+    padding: 10px 20px; /* Same padding as other nav items */
+    text-decoration: none; /* Remove underline from the dropdown header */
+}
+
+.nav-item.dropdown:hover .nav-link {
+    color: #ff6347; /* Change color on hover for dropdown header */
+}
+
+/* Remove ::after from dropdown */
+.nav-item.dropdown .nav-link::after {
+    display: none; /* Disable any existing ::after styling */
+}
+
+.dropdown-menu {
+    display: none; /* Hide the dropdown menu by default */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown menu on hover */
+    opacity: 1; /* Fade in effect */
+}
+
+/* Dropdown item styles */
+.dropdown-item {
+    color: rgb(21, 20, 20); /* Set dropdown item color */
+    padding: 10px 20px; /* Adjust padding for dropdown items */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.dropdown-item:hover {
+    color: #373434; /* Change color on hover */
+    background-color: rgba(255, 99, 71, 0.2); /* Optional background color on hover */
+}

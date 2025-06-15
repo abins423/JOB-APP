@@ -1,0 +1,46 @@
+/* Root Container */
+#root {
+  max-width: 1280px; /* Set a maximum width for the root element */
+  margin: 0 auto; /* Center the root element horizontally */
+  background-color: black; /* Background color for the entire app */
+  height: 100vh; /* Set height to fill the viewport */
+  text-align: center; /* Center-align text within the root */
+  overflow: hidden; /* Prevent overflow issues */
+}
+
+/* Body Styles */
+body {
+  background-color: black; /* Background color for the body */
+  color: white; /* Text color for the body */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif; /* Set a default font for the body */
+}
+
+/* Read the Docs Link Styles */
+.read-the-docs {
+  color: #888; /* Color for documentation links */
+  text-decoration: none; /* Remove underline */
+}
+
+.read-the-docs:hover {
+  color: #fff; /* Change color on hover */
+}
+
+/* Additional Global Styles (if needed) */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; /* Remove default margins for headings */
+  color: white; /* Ensure headings are white for visibility */
+}
+
+p {
+  line-height: 1.5; /* Improve readability */
+  margin: 10px 0; /* Add margin to paragraphs for spacing */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #root {
+    padding: 10px; /* Add padding for smaller screens */
+  }
+}

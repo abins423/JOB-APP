@@ -1,0 +1,52 @@
+/* Profile Details Container */
+.profiledetails {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #211e1e;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .profiledetails h2 {
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Profile Picture Styling */
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid rgb(178, 171, 171)
+  }
+  
+  /* User Details */
+  .user-details {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Update Profile Button */
+  .profiledetails button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .profiledetails button:hover {
+    background-color: #0056b3;
+  }
+  

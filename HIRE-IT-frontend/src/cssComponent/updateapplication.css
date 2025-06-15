@@ -1,0 +1,60 @@
+/* General container styling */
+.application {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the heading */
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #444;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* File input field */
+.file {
+    margin: 10px 0;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Button styling */
+.updatebutton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Specific styling for delete button */
+.updatebutton {
+    background-color: #28a745;
+}
+
+.updatebutton:hover {
+    background-color: #218838;
+}
+
+
+p {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}

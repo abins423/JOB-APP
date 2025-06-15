@@ -1,0 +1,48 @@
+   
+  .container {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    width:100%;
+  }
+  .head{
+    color: rgb(233, 228, 233);
+    position: fixed;
+    left: 10px;
+    top: 0;
+    font-style:italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  /* Style for the semi-circle button */
+  .button {
+    background-color:  #d7b807;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: black;
+    padding: 15px 40px;
+    border-radius: 50px 50px 50px 50px; /* Semi-circle effect */
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Button glow effect on click */
+  button:active {
+    box-shadow: 0 0 20px yellow;
+    transform: scale(1.05); /* Slight zoom effect on click */
+  }
+  
+  /* Optional hover effect to add more interactivity */
+  button:hover {
+    background-color:  #ffd700;
+    
+    border-style: double;
+    border-color: rgb(115, 14, 16); /* A darker shade of yellow */
+    transform: scale(1.03); /* Slight enlargement */
+  }
+  

@@ -1,0 +1,102 @@
+/* Profile Container */
+.profile-container {
+    max-width: 500px;
+    margin:  auto;
+    padding: 30px;
+    background-color: #211e1e;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+ 
+  }
+  
+  /* Title */
+  .profile-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Fields */
+  .profile-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-container label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .profile-container input,
+  .profile-container textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    box-sizing: border-box;
+    background-color: #333;
+  }
+  
+  /* Textarea for Achievements */
+  .profile-container textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Buttons */
+  .profile-container button {
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #cdb51c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width:100%;
+
+  }
+  
+  .profile-container button[type="button"] {
+    background-color: #cdb51c;
+  }
+  
+  .profile-container button:hover {
+    background-color: #218838;
+  }
+  
+  .profile-container button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Image Upload Input */
+  .profile-container .image {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Image Preview */
+  .image-preview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #007bff;
+  }
+  .maincontainer{
+    background-color: black;
+    height: 120%;
+    padding-bottom: 20px;
+    
+  }
+  

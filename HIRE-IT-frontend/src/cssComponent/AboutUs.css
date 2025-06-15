@@ -1,0 +1,86 @@
+.aboutdiv{
+    background-color: black;
+}
+.aboutmain {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #222; /* Dark gray background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Light shadow for visibility */
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #fff; /* Ensure heading contrast against dark background */
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0 10px;
+    color: #fff; /* Ensure heading contrast against dark background */
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #fff; /* Ensure heading contrast against dark background */
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #ccc; /* Light gray for paragraph text for readability */
+}
+
+/* Service container */
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Service card */
+.service {
+    flex: 1 1 30%; /* Allow 3 columns */
+    margin: 10px;
+    padding: 20px;
+    background-color: #80b1e0; /* Light background for service cards */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Light shadow for visibility */
+    transition: transform 0.2s, box-shadow 0.2s; /* Added box-shadow transition */
+}
+
+.service:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover for effect */
+}
+.service p{
+    color: white;
+    font-style: normal;
+}
+
+/* Contact info styles */
+.contact-info {
+    margin-top: 10px;
+}
+
+/* Footer styles */
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .service {
+        flex: 1 1 100%; /* Stack services on smaller screens */
+    }
+}

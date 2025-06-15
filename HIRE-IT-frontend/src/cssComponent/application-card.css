@@ -1,0 +1,14 @@
+.applicationcard{
+background-color: rgb(19, 17, 17); /* White background for the cards */
+border-radius: 8px; /* Rounded corners */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+padding: 15px; /* Padding inside the card */
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+border: 2px solid #353835;
+}
+
+.applicationcard:hover {
+transform: translateY(-5px); /* Slightly lift the card on hover */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+background-color:rgb(66, 62, 49);/* Deeper shadow on hover */
+}

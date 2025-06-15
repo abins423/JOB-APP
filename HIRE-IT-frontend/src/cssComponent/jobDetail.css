@@ -1,0 +1,37 @@
+.detail {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.application-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(1, 1, 1);
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3); 
+    border: 2px solid rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    width: 45%;
+    height: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    transition: box-shadow 0.3s;
+    
+}
+
+.application-card:hover {
+    box-shadow: 0px 4px 20px rgba(108, 106, 106, 0.5);
+}
+.applybutton{
+    width: 150px;
+    background-color: rgb(206, 165, 16);
+    border-radius: 20px;
+    color: black;
+}
